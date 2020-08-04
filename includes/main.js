@@ -18,10 +18,10 @@ jQuery(document).ready(function($) {
                 message: message,
             },
             success: function(response) {
-                $(".success_msg").css("display", "block");
+                alert("Successfully sent");
             },
             error: function(data) {
-                $(".error_msg").css("display", "block");
+                alert("Email not sent");
             }
         });
         $('.ajax')[0].reset();

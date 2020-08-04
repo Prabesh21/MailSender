@@ -64,7 +64,7 @@ function set_form(){
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
-	$admin =get_option('admin_email');
+$admin =get_option('admin_email');
 	// wp_mail($email,$name,$message);  main sent to admin and the user
 	if(wp_mail($email, $name, $message)  &&  wp_mail($admin, $name, $message) )
        {

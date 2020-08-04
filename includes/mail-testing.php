@@ -1,4 +1,5 @@
 <h3>Send Email to the following account</h3>
+<form action="" method="post" class="ajax" >
 <label><b>Name</b></label>
 
           <input type="text" placeholder="Enter Your Name" name="name" 
